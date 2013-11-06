@@ -70,9 +70,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn{
-	border: 1px solid #222;
-	border-right: 3px solid;
-	border-bottom: 3px solid;
+	border: 1px solid #fff;
 	padding: 15px;
 	display: inline-block;
 	cursor: pointer;
@@ -80,11 +78,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn:hover{
-	border-right: 1px solid;
-	border-bottom: 1px solid;
-	top: 2px;
-	left: 2px;
-
+	background-color: #fff;
+	color: #000;
 }
 
 .btn-wrapper{
@@ -105,7 +100,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #quote-divider{
-	background: url(../img/photo_20.jpg);
+	background: url(../img/photo_16.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -147,7 +142,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #registry{
-	background:url(../img/photo_2.jpg);
+	background:url(../img/photo_20.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -361,6 +356,12 @@ h1, h2, h3, h4, h5, h6{
 	columns:100px 3;
 	-webkit-columns:100px 3; /* Safari and Chrome */
 	-moz-columns:100px 3; /* Firefox */
+	font-weight: 300;
+	margin-bottom: 66px;
+}
+
+#info-text{
+	text-align: center;
 	font-weight: 300;
 	margin-bottom: 66px;
 }
@@ -611,21 +612,30 @@ h1, h2, h3, h4, h5, h6{
 
 #contact{
 	position: relative;
-	z-index: 1;
+	color: #ffffff;
 }
 
-#contact-holder{
-	padding-top: 88px;
-	padding-bottom: 88px;
-	overflow: hidden;
-	background-color: rgba(255,255,255,0.6);
-	position: relative;
-	z-index: 2;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-	opacity: 1;
+#contact p {
+	color: #ffffff;
 }
+
+#contact h1 {
+	color: #ffffff;
+}
+
+
+
+#contact-holder{
+	color: #ffffff;
+	background: url(../img/photo_2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
 
 .contact-fade{
 	opacity: 0 !important;
@@ -661,8 +671,8 @@ h1, h2, h3, h4, h5, h6{
 	float: left;
 	margin-right: 11px;
 	padding: 10px 10px 13px 10px;
-	background-color: #222;
-	color: #fff;
+	background-color: #ffffff;
+	color: #000;
 	margin-bottom: 11px;
 }
 
@@ -671,17 +681,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #contact-form #name{
+	border: 1px solid #fff;
 	overflow: hidden;
 	width: 48%;
 	margin-right: 2%;
 	float: left;
-	border-right: 3px solid #222;
-	border-bottom: 3px solid #222;
-	border-top: 1px solid #222;
-	border-left: 1px solid #222;
 	padding: 5px;
 	margin-bottom: 11px;
-	background-color: rgba(255,255,255,0.5);
 }
 
 #form-name{
@@ -690,19 +696,17 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 0px;
 	border: none;
 	background-color: rgba(0,0,0,0);
+	color: #fff;
 }
 
 #contact-form #email{
+	border: 1px solid #fff;
 	overflow: hidden;
 	width: 48%;
 	float: right;
-	border-right: 3px solid #222;
-	border-bottom: 3px solid #222;
-	border-top: 1px solid #222;
-	border-left: 1px solid #222;
 	padding: 5px;
 	margin-bottom: 11px;
-	background-color: rgba(255,255,255,0.5);
+
 }
 
 #form-email{
@@ -711,10 +715,11 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 0px;
 	border: none;
 	background-color: rgba(0,0,0,0);
+	color: #fff;
 }
 
 .form-icon{
-	border-right: 2px solid #222;
+	border-right: 1px solid #fff;
 	float: left;
 	margin-right: 11px;
 	padding-right: 3px;
@@ -722,6 +727,7 @@ h1, h2, h3, h4, h5, h6{
 
 .form-icon i{
 	font-size: 29px;
+	color:#fff;
 }
 
 #email .form-icon i{
@@ -730,14 +736,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #message{
-	border-right: 3px solid #222;
-	border-bottom: 3px solid #222;
-	border-top: 1px solid #222;
-	border-left: 1px solid #222;
+	border: 1px solid #fff;
 	padding: 5px;
 	margin-bottom: 11px;
 	overflow: hidden;
-	background-color: rgba(255,255,255,0.5);
 	width: 100%;
 	float: none;
 	clear: both;
@@ -749,6 +751,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 100px;
 	border: none;
 	background-color: rgba(0,0,0,0);
+	color: #fff;
 }
 
 #contact-form .btn-wrapper{
@@ -778,7 +781,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #footer .hr{
+	color: #ffffff;
 	margin-bottom: 22px;
+
 }
 
 #footer-social{
@@ -817,6 +822,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #copy-text{
-	opacity: 0.4;
+	color: #ffffff;
 	font-size: 12px;
 }
