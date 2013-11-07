@@ -620,13 +620,11 @@ h1, h2, h3, h4, h5, h6{
 	padding-top: 88px;
 	padding-bottom: 88px;
 	overflow: hidden;
-	background-color: rgba(255,255,255,0.6);
-	position: relative;
-	z-index: 2;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-	opacity: 1;
+	background: url(../img/photo_2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .contact-fade{
