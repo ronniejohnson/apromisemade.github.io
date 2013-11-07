@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #quote-divider{
-	background: url(../img/photo_20.jpg);
+	background: url(../img/photo_16.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #registry{
-	background:url(../img/photo_2.jpg);
+	background:url(../img/photo_20.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
