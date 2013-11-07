@@ -15,7 +15,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Varela Round',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -767,7 +767,7 @@ a {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
