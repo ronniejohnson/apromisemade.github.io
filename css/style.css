@@ -676,7 +676,6 @@ h1, h2, h3, h4, h5, h6{
 	margin-right: 2%;
 	float: left;
 	border: 2px solid #fff;
-	border-left: 1px solid #222;
 	padding: 5px;
 	margin-bottom: 11px;
 	background-color: rgba(255,255,255,0);
@@ -694,13 +693,10 @@ h1, h2, h3, h4, h5, h6{
 	overflow: hidden;
 	width: 48%;
 	float: right;
-	border-right: 3px solid #222;
-	border-bottom: 3px solid #222;
-	border-top: 1px solid #222;
-	border-left: 1px solid #222;
+	border: 2px solid #fff;
 	padding: 5px;
 	margin-bottom: 11px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0);
 }
 
 #form-email{
@@ -712,7 +708,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .form-icon{
-	border-right: 2px solid #222;
+	border-right: 2px solid #fff;
 	float: left;
 	margin-right: 11px;
 	padding-right: 3px;
@@ -728,14 +724,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #message{
-	border-right: 3px solid #222;
-	border-bottom: 3px solid #222;
-	border-top: 1px solid #222;
-	border-left: 1px solid #222;
+	border: 2px solid #fff;
 	padding: 5px;
 	margin-bottom: 11px;
 	overflow: hidden;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0);
 	width: 100%;
 	float: none;
 	clear: both;
@@ -812,6 +805,7 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: bold;
 	letter-spacing: 3px;
 	margin-right: -3px;
+	color: #fff;
 }
 
 #copy-text{
