@@ -15,8 +15,17 @@
 	.navigation li a{ float: left; }
 
 	.tile-wrapper{ width: 100%; }
+	#home-slider {
+		background: url(../img/photo_11.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 	#home-slider .slides li{ padding-top: 50px; padding-bottom: 50px; }
-	.slider-bg{ max-width: 200%; }
+	.slider-bg{ max-width: 100%; }
 	#about-text{
 		columns: 100px 1;
 		-webkit-columns: 100px 1;
