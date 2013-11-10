@@ -17,7 +17,12 @@
 	.tile-wrapper{ width: 100%; }
 	#home-slider {
 		background: url(../img/photo_11_mobile.jpg) no-repeat center center fixed;
-
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 	#home-slider .slides li{ padding-top: 50px; padding-bottom: 50px; }
 	.slider-bg{ max-width: 100%; }
