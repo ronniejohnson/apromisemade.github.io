@@ -32,6 +32,7 @@ input{ -webkit-appearance: none; }
 .pad-large{
 	padding-top: 88px;
 	padding-bottom: 88px;
+	background-color: #f3ddcd;
 }
 
 .pad-small{
@@ -53,12 +54,13 @@ h1, h2, h3, h4, h5, h6{
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	margin-right: -10px;
+	color: #fff;
 }
 
 /** ELEMENTS **/
 
 .hr{
-	background-color: #222;
+	background-color: #fff;
 	height: 1px;
 	margin: 0px auto;
 }
@@ -97,7 +99,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #quote-divider{
-	background: url(../img/photo_16.jpg);
+	background: url(../img/photo_16-2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -262,7 +264,7 @@ h1, h2, h3, h4, h5, h6{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 1024px;
+  min-height: 900px;
   min-width: 100%;
 }
 
@@ -357,6 +359,7 @@ h1, h2, h3, h4, h5, h6{
 	-moz-columns:100px 3; /* Firefox */
 	font-weight: 300;
 	margin-bottom: 66px;
+	color: #d29679;
 }
 
 /*
