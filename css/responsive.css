@@ -1,6 +1,6 @@
 /************** SMARTPHONES ****************/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 640px){
 
 	.hide-for-small{ display: none; }
 	.mobile-nav{ display: block; }
@@ -88,10 +88,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
 	#clients{  background-attachment: scroll; }
-	#quote-divider{ background-attachment: scroll; }
 
-	#home-slider {
-	background-attachment: scroll; }
+
 
 #about-text{
 	font-weight: 300;
@@ -101,6 +99,10 @@ and (max-device-width : 1024px) {
 	line-height: 36px;
 	padding: 25px;
 }
+
+
+	#home-slider { background-attachment: scroll; }
+
 
 }
 
@@ -121,6 +123,8 @@ and (orientation : portrait) {
 	.work-img-holder{ height: 220px; }
 	#form-name{ width: 70%; }
 	#form-email{ width: 70%; }
+
+
 
 }
 
