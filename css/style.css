@@ -366,12 +366,14 @@ h1, h2, h3, h4, h5, h6{
 /***************** ABOUT ***************/
 
 #about-text{
-	columns:100px 3;
-	-webkit-columns:100px 3; /* Safari and Chrome */
-	-moz-columns:100px 3; /* Firefox */
+	columns:400px 4;
+	-webkit-columns:400px 4; /* Safari and Chrome */
+	-moz-columns:400px 4; /* Firefox */
 	font-weight: 300;
 	margin-bottom: 66px;
 	color: #d29679;
+	font-size: 14px;
+	line-height: 20px;
 }
 
 #info-text{
