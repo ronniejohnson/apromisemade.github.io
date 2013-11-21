@@ -52,7 +52,7 @@ input{ -webkit-appearance: none; }
   font-weight: 700;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h6{
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	margin-right: -10px;
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6{
 	-moz-columns:400px 4; /* Firefox */
 	font-weight: 300;
 	margin-bottom: 66px;
-	color: #d29679;
+	color: #ca727a;
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -462,9 +462,7 @@ h1, h2, h3, h4, h5, h6{
 
 .service{
 	padding: 15px;
-	border: 1px solid #222;
-	border-right: 3px solid #555;
-	border-bottom: 3px solid #555;
+	border: 2px solid #fff;
 	max-height: 132px;
 	overflow: hidden;
 	cursor: pointer;
@@ -472,17 +470,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .service:hover{
-	border-right: 1px solid #555;
-	border-bottom: 1px solid #555;
-	top: 2px;
-	left: 2px;
 
 }
 
 .open-service{
 	max-height: 380px !important;
-	border-right: 3px solid #222;
-	border-bottom: 3px solid #222;
+border: 2px solid #fff;
 }
 
 .open-service .hr{
@@ -499,8 +492,9 @@ h1, h2, h3, h4, h5, h6{
 
 .service h5{
 	margin-top: 22px;
-	letter-spacing: 7px;
+	letter-spacing: 3px;
 	margin-right: -7px;
+	font-size: 15px;
 }
 
 .service .hr{
@@ -518,6 +512,7 @@ h1, h2, h3, h4, h5, h6{
 	-moz-transition: all .3s;
 	transition: all .3s;
 	margin-bottom: 7px;
+
 }
 
 /***************** WORK ***************/
