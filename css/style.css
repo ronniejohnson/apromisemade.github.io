@@ -48,6 +48,8 @@ input{ -webkit-appearance: none; }
 
 .text-white{
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -80,6 +82,16 @@ h1, h2, h3, h4, h5, h6{
 	color: #fff;
 }
 
+.box{
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid #fff;
+	padding: 15px;
+	display: inline-block;
+	position: relative;
+	color: #fff;
+	font-weight: 700;
+}
+
 
 .btn-wrapper{
 	display: inline-block;
@@ -99,7 +111,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #quote-divider{
-	background: url(../img/photo_16-2.jpg);
+	background: url(../img/photo_16.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -357,6 +369,15 @@ h1, h2, h3, h4, h5, h6{
 	columns:100px 3;
 	-webkit-columns:100px 3; /* Safari and Chrome */
 	-moz-columns:100px 3; /* Firefox */
+	font-weight: 300;
+	margin-bottom: 66px;
+	color: #d29679;
+}
+
+#info-text{
+	columns:100px 2;
+	-webkit-columns:100px 2; /* Safari and Chrome */
+	-moz-columns:100px 2; /* Firefox */
 	font-weight: 300;
 	margin-bottom: 66px;
 	color: #d29679;

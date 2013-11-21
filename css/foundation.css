@@ -21,6 +21,11 @@ body {
   position: relative;
   cursor: default; }
 
+body h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
 a:hover {
   cursor: pointer; }
 
@@ -776,6 +781,17 @@ p {
     font-size: 0.875em;
     line-height: 1.35;
     font-style: italic; }
+
+p a{
+  font-family: 'Varela Round', sans-serif;
+  color: #d29679;
+  text-decoration: underline;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #a77258; }
+  a img {
+    border: none; }
+}
 
 /* Default header styles */
 h1, h2, h3, h4, h6 {
