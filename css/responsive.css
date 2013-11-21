@@ -1,6 +1,6 @@
 /************** SMARTPHONES ****************/
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 768px){
 
 	.hide-for-small{ display: none; }
 	.mobile-nav{ display: block; }
@@ -17,6 +17,7 @@
 	.tile-wrapper{ width: 100%; }
 	#home-slider {
 		background: url(../img/photo_12_mobile.jpg) ;
+		background-size: contain;
 	}
 	#home-slider .slides li{ padding-top: 50px; padding-bottom: 50px; }
 	.slider-bg{ max-width: 100%; }
