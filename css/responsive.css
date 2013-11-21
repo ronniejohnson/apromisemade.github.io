@@ -24,21 +24,19 @@
 	}
 #quote {
 		background: url(../img/photo_2_mobile.jpg) ;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
-		min-height: 500px;
 		max-width: 100%;
-		overflow: hidden;
 
 }
 
 #registry {
 		background: url(../img/photo_3_mobile.jpg) ;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		min-height: 500px;
 		max-width: 100%;
-		margin-bottom: 33px;
+
 
 }
 
