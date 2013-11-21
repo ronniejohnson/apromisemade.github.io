@@ -19,9 +19,29 @@
 		background: url(../img/photo_12_mobile.jpg) ;
 		background-size: contain;
 		background-repeat: no-repeat;
-		min-height: 560px;
+		min-height: 500px;
 		max-width: 100%;
 	}
+#quote {
+		background: url(../img/photo_2_mobile.jpg) ;
+		background-size: contain;
+		background-repeat: no-repeat;
+		max-height: 800px;
+		max-width: 100%;
+		overflow: hidden;
+
+}
+
+#registry {
+		background: url(../img/photo_3_mobile.jpg) ;
+		background-size: contain;
+		background-repeat: no-repeat;
+		max-height: 800px;
+		max-width: 100%;
+		margin-bottom: 33px;
+
+}
+
 	#home-slider .slides li{ padding-top: 50px; padding-bottom: 50px; }
 	.slider-bg{ max-width: 100%; }
 	#about-text{
@@ -45,7 +65,7 @@
 	#contact-form #email{ width: 100%; margin-right: 0px; }
 	.flex-direction-nav a{ display: none; }
 
-	h1 {
+	h1,h2, h3 {
 		letter-spacing: 3px;
 		line-height: 45px;
 
