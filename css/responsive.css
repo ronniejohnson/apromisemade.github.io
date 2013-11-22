@@ -83,9 +83,8 @@
 
 
 /****************** TABLETS (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
 
 	#clients{  background-attachment: scroll; }
 
@@ -101,20 +100,14 @@ and (max-device-width : 1024px) {
 }
 
 
-	#home-slider { background-attachment: scroll; }
 
-
-}
 
 
 
 }
 
 /***************** TABLETS (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
+@media only screen and (min-device-width: 768px) and (orientation : portrait) {
 
 	.navigation li{ margin-right: 32px; }
 	.service h5{ 1em }
@@ -124,7 +117,24 @@ and (orientation : portrait) {
 	#form-name{ width: 70%; }
 	#form-email{ width: 70%; }
 
+#about-text{
+	font-weight: 300;
+	margin-bottom: 66px;
+	color: #ca727a;
+	font-size: 18px;
+	line-height: 36px;
+	padding: 25px;
+}
 
+	#home-slider {
+		background: url(../img/photo_12_tablet.jpg) ;
+		background-size: contain;
+		background-repeat: no-repeat;
+		min-height: 844px;
+		max-width: 100%;
+
+
+}
 
 }
 
