@@ -36,6 +36,7 @@
 		background-repeat: no-repeat;
 		min-height: 500px;
 		max-width: 100%;
+}
 
 
 }
@@ -50,7 +51,17 @@
 		line-height: 30px;
 	}
 
-	.team-img-holder img{ width: 100% }
+img.mobile { display: none; }
+
+			img.lrg {
+				display: none;
+			}
+			img.mobile {
+				display: inline;
+			}
+		}
+
+
 	.service{ margin-bottom: 11px; }
 	.services-row{ margin-bottom: 0px; }
 	.store{ margin-bottom: 0px; }
