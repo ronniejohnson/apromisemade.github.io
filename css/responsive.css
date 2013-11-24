@@ -52,12 +52,12 @@
 	}
 
 img.mobile { display: none; }
-
-			img.lrg {
+@media only screen and (max-width: 320px) {
+			img {
 				display: none;
 			}
 			img.mobile {
-				display: inline;
+				display: inherit;
 
 			}
 		}
