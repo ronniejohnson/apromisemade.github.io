@@ -51,16 +51,7 @@
 		line-height: 30px;
 	}
 
-img.mobile { display: none; }
-@media only screen and (max-width: 320px) {
-			img {
-				display: none;
-			}
-			img.mobile {
-				display: inherit;
 
-			}
-		}
 
 
 	.service{ margin-bottom: 11px; }
