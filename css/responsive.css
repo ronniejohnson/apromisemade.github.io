@@ -39,7 +39,7 @@
 }
 
 
-}
+
 
 	#home-slider .slides li{ padding-top: 50px; padding-bottom: 50px; }
 	.slider-bg{ max-width: 100%; }
@@ -51,13 +51,13 @@
 		line-height: 30px;
 	}
 
-
+}
 
 
 	.service{ margin-bottom: 11px; }
 	.services-row{ margin-bottom: 0px; }
 	.store{ margin-bottom: 0px; }
-	.store img{ width: 80%; }
+	.store img{ width: 100%; }
 	.work-item{ margin-bottom: 22px; }
 	.work-row{ margin-bottom: 0px; }
 	.project-details p{ width: 100%; }

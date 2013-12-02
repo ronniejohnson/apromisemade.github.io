@@ -276,7 +276,7 @@ h1, h2, h3, h4, h6{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 900px;
+  min-height: 850px;
   min-width: 100%;
 }
 
@@ -366,14 +366,14 @@ h1, h2, h3, h4, h6{
 /***************** ABOUT ***************/
 
 #about-text{
-	columns:400px 4;
-	-webkit-columns:400px 4; /* Safari and Chrome */
-	-moz-columns:400px 4; /* Firefox */
+	columns:400px 3;
+	-webkit-columns:400px 3; /* Safari and Chrome */
+	-moz-columns:400px 3; /* Firefox */
 	font-weight: 300;
 	margin-bottom: 66px;
 	color: #ca727a;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 25px;
 }
 
 #info-text{
@@ -793,6 +793,10 @@ border: 2px solid #fff;
 	list-style: none;
 	margin-bottom: 22px;
 	display: inline-block;
+}
+
+a.email {
+	color:#ffffff;
 }
 
 #footer-social li a{
