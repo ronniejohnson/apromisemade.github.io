@@ -1,6 +1,6 @@
 /************** SMARTPHONES ****************/
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 767px){
 
 	.hide-for-small{ display: none; }
 	.mobile-nav{ display: block; }
@@ -14,50 +14,44 @@
 	}
 	.navigation li a{ float: left; }
 
-	.tile-wrapper{ width: 100%; }
-	#home-slider {
-		background: url(../img/photo_12_mobile.jpg) ;
-		background-size: contain;
-		background-repeat: no-repeat;
-		min-height: 500px;
-		max-width: 100%;
+	.tile-wrapper{ width: 100%;
 	}
+	#home-slider {
+    background: url(../img/photo_12_mobile.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 530px;
+    max-width: 100%;
+  }
 #quote {
-		background: url(../img/photo_2_mobile.jpg) ;
-		background-size: cover;
-		background-repeat: no-repeat;
-		max-width: 100%;
+    background: url(../img/photo_2_mobile.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
 
 }
 
 #registry {
-		background: url(../img/photo_3_mobile.jpg) ;
-		background-size: cover;
-		background-repeat: no-repeat;
-		min-height: 500px;
-		max-width: 100%;
+    background: url(../img/photo_3_mobile.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    max-width: 100%;
 }
+	.slider-bg{ max-width: 80%; }
 
-
-
-
-	#home-slider .slides li{ padding-top: 50px; padding-bottom: 50px; }
-	.slider-bg{ max-width: 100%; }
 	#about-text{
+		line-height: 30px;
 		columns: 100px 1;
 		-webkit-columns: 100px 1;
 		-moz-columns: 100px 1;
-		padding: 5px;
-		line-height: 30px;
 	}
 
-}
-
-
+	.team-img-holder img{ width: 100% }
 	.service{ margin-bottom: 11px; }
 	.services-row{ margin-bottom: 0px; }
 	.store{ margin-bottom: 0px; }
-	.store img{ width: 100%; }
+	.store img{ width: 80%; }
 	.work-item{ margin-bottom: 22px; }
 	.work-row{ margin-bottom: 0px; }
 	.project-details p{ width: 100%; }
@@ -69,8 +63,8 @@
 	.flex-direction-nav a{ display: none; }
 
 	h1,h2, h3 {
-		letter-spacing: 3px;
-		line-height: 45px;
+    letter-spacing: 3px;
+    line-height: 45px;
 
 }
 
@@ -81,32 +75,25 @@
 }
 
 .pad-bottom{
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 
 /****************** TABLETS (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
 
 	#clients{  background-attachment: scroll; }
-
-
-
-#about-text{
-	font-weight: 300;
-	margin-bottom: 66px;
-	color: #ca727a;
-	font-size: 18px;
-	line-height: 36px;
-	padding: 25px;
-}
-
+	#quote-divider{ background-attachment: scroll; }
 
 }
 
 /***************** TABLETS (portrait) ----------- */
-@media only screen and (min-device-width: 308px) and (max-device-width: 304px) and (orientation : portrait) {
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
 
 	.navigation li{ margin-right: 32px; }
 	.service h5{ 1em }
@@ -115,25 +102,6 @@
 	.work-img-holder{ height: 220px; }
 	#form-name{ width: 70%; }
 	#form-email{ width: 70%; }
-
-#about-text{
-	font-weight: 300;
-	margin-bottom: 66px;
-	color: #ca727a;
-	font-size: 18px;
-	line-height: 36px;
-	padding: 85px;
-}
-
-	#home-slider {
-		background: url(../img/photo_12_tablet.jpg) ;
-		background-size: contain;
-		background-repeat: no-repeat;
-		min-height: 844px;
-		max-width: 100%;
-
-
-}
 
 }
 
