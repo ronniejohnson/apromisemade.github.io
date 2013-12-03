@@ -20,7 +20,7 @@
     background: url(../img/photo_12_mobile.jpg) ;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 530px;
+    min-height: 499px;
     max-width: 100%;
   }
 #quote {
@@ -87,6 +87,25 @@ and (max-device-width : 1024px) {
 	#clients{  background-attachment: scroll; }
 	#quote-divider{ background-attachment: scroll; }
 
+	#about-text{
+  font-weight: 300;
+  margin-bottom: 66px;
+  color: #ca727a;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 85px;
+}
+
+  #home-slider {
+    background: url(../img/photo_12_tablet.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 844px;
+    max-width: 100%;
+
+
+}
+
 }
 
 /***************** TABLETS (portrait) ----------- */
@@ -102,6 +121,25 @@ and (orientation : portrait) {
 	.work-img-holder{ height: 220px; }
 	#form-name{ width: 70%; }
 	#form-email{ width: 70%; }
+
+	#about-text{
+  font-weight: 300;
+  margin-bottom: 66px;
+  color: #ca727a;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 85px;
+}
+
+  #home-slider {
+    background: url(../img/photo_12_tablet.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 844px;
+    max-width: 100%;
+
+
+}
 
 }
 
