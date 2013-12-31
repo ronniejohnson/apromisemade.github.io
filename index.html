@@ -8,25 +8,19 @@
   <title>A Promise Made</title>
 
 
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/flexslider.css">
-  <link rel="stylesheet" href="css/typicons.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/foundation.css" type="text/css" />
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+  <link rel="stylesheet" href="css/typicons.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
 
 
-<link rel="stylesheet" href="css/nivo-lightbox.css" type="text/css" />
-<link rel="stylesheet" href="css/default.css" type="text/css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/shadowbox.css">
+<script type="text/javascript" src="js/shadowbox.js"></script>
 
-<script>
-$(document).ready(function(){
-    $('a').nivoLightbox();
-});
+<script type="text/javascript">
+Shadowbox.init();
 </script>
-
-
 
 
   <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Varela+Round' rel='stylesheet' type='text/css'>
@@ -349,10 +343,7 @@ $(document).ready(function(){
 			<div class="work-item" data-project-id="project-1">
 				<div class="work-img-holder">
 
-				<a href="img/photos/photo-1.jpg" title="This is an image title">
-    <img src="img/thumbnails/thumbnail-1.jpg" alt="" /></a>
-<a href="http://wikipedia.com">View Website</a>
-<a href="https://www.youtube.com/watch?v=L9szn1QQfas">View Youtube Video</a>
+					<a href="img/photos/photo-1.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-1.jpg"</a>
 
 
 
@@ -363,7 +354,7 @@ $(document).ready(function(){
 			<div class="large-4 columns">
 			<div class="work-item" data-project-id="project-1">
 				<div class="work-img-holder">
-				<a href="img/photos/photo-2.jpg" class="fresco"><img src="img/thumbnails/thumbnail-2.jpg"></a>
+				<a href="img/photos/photo-2.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-2.jpg"></a>
 				</div>
 			</div>
 		</div>
@@ -371,35 +362,7 @@ $(document).ready(function(){
 			<div class="large-4 columns">
 			<div class="work-item" data-project-id="project-1">
 				<div class="work-img-holder">
-				<a href="img/photos/photo-3.jpg" class="fresco"><img src="img/thumbnails/thumbnail-3.jpg"></a>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="row work-row">
-
-			<div class="large-4 columns">
-			<div class="work-item" data-project-id="project-1">
-				<div class="work-img-holder">
-				<a href="img/photos/photo-4.jpg" class="fresco"><img src="img/thumbnails/thumbnail-4.jpg"></a>
-				</div>
-			</div>
-		</div>
-
-			<div class="large-4 columns">
-			<div class="work-item" data-project-id="project-1">
-				<div class="work-img-holder">
-				<a href="img/photos/photo-5.jpg" class="fresco"><img src="img/thumbnails/thumbnail-5.jpg"></a>
-				</div>
-			</div>
-		</div>
-
-			<div class="large-4 columns">
-			<div class="work-item" data-project-id="project-1">
-				<div class="work-img-holder">
-				<a href="img/photos/photo-6.jpg" class="fresco"><img src="img/thumbnails/thumbnail-6.jpg"></a>
+				<a href="img/photos/photo-3.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-3.jpg"></a>
 				</div>
 			</div>
 		</div>
@@ -411,7 +374,7 @@ $(document).ready(function(){
 			<div class="large-4 columns">
 			<div class="work-item" data-project-id="project-1">
 				<div class="work-img-holder">
-				<a href="img/photos/photo-7.jpg" class="fresco"><img src="img/thumbnails/thumbnail-7.jpg"></a>
+				<a href="img/photos/photo-4.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-4.jpg"></a>
 				</div>
 			</div>
 		</div>
@@ -419,7 +382,7 @@ $(document).ready(function(){
 			<div class="large-4 columns">
 			<div class="work-item" data-project-id="project-1">
 				<div class="work-img-holder">
-				<a href="img/photos/photo-8.jpg" class="fresco"><img src="img/thumbnails/thumbnail-8.jpg"></a>
+				<a href="img/photos/photo-5.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-5.jpg"></a>
 				</div>
 			</div>
 		</div>
@@ -427,7 +390,35 @@ $(document).ready(function(){
 			<div class="large-4 columns">
 			<div class="work-item" data-project-id="project-1">
 				<div class="work-img-holder">
-				<a href="img/photos/photo-9.jpg" class="fresco"><img src="img/thumbnails/thumbnail-9.jpg"></a>
+				<a href="img/photos/photo-6.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-6.jpg"></a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row work-row">
+
+			<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+				<a href="img/photos/photo-7.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-7.jpg"></a>
+				</div>
+			</div>
+		</div>
+
+			<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+				<a href="img/photos/photo-8.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-8.jpg"></a>
+				</div>
+			</div>
+		</div>
+
+			<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+				<a href="img/photos/photo-9.jpg" rel="shadowbox"><img src="img/thumbnails/thumbnail-9.jpg"></a>
 				</div>
 			</div>
 		</div>
@@ -484,13 +475,16 @@ $(document).ready(function(){
 <!-- jQuery -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
+
 <!-- Make IE8 and below responsive by adding CSS3 MediaQuery support -->
 <!--[if lt IE 9]>
   <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 
-<!-- Fresco -->
-<script type="text/javascript" src="js/fresco.js"></script>
+
+
+
+
 
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="js/vendor/jquery.js"></script>
@@ -502,5 +496,8 @@ $(document).ready(function(){
   <script>
     $(document).foundation();
   </script>
+
+
+
 </body>
 </html>
