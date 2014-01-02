@@ -526,11 +526,14 @@ border: 2px solid #fff;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
+
 }
 
 .work-img-holder img{
 	width: 100%;
+
 }
+
 
 .work-overlay{
 	width: 100%;
