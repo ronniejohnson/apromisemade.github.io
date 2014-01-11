@@ -24,7 +24,7 @@
     max-width: 100%;
   }
 #quote {
-    background: url(../img/photo_2_mobile.jpg) ;
+    background: url(../img/photo_02_mobile.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -32,12 +32,23 @@
 }
 
 #registry {
-    background: url(../img/photo_3_mobile.jpg) ;
+    background: url(../img/photo_03_mobile.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 500px;
     max-width: 100%;
 }
+
+#contact-holder {
+    background: url(../img/photo_04_mobile.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    max-width: 100%;
+}
+
+
+
 	.slider-bg{ max-width: 80%; }
 
 	#about-text{
