@@ -111,7 +111,7 @@ h1, h2, h3, h4, h6{
 }
 
 #quote-divider{
-	background: url(../img/photo_16.jpg);
+	background: url(../img/photo_02.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h6{
 }
 
 #registry{
-	background:url(../img/photo_20.jpg);
+	background:url(../img/photo_03.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h6{
 
 
 #home-slider {
-	background: url(../img/photo_11.jpg) no-repeat center center fixed;
+	background: url(../img/photo_01.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -634,10 +634,10 @@ border: 2px solid #fff;
 }
 
 #contact-holder{
-	padding-top: 88px;
-	padding-bottom: 88px;
+	padding-top: 108px;
+	padding-bottom: 108px;
 	overflow: hidden;
-	background: url(../img/photo_2.jpg) no-repeat center center fixed;
+	background: url(../img/photo_04.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
