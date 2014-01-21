@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 767px){
+
+
+#home-slider {
+    background: url(../img/photo_01_mobile.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 499px;
+    max-width: 100%;
+  }
+
+}
